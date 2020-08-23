@@ -3,7 +3,11 @@ module.exports = {
     './src/**/*.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'ops': ['Black Ops One', 'cursive']
+      }
+    },
   },
   variants: {},
   plugins: [],

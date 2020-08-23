@@ -1,12 +1,5 @@
-# Template for the TASH Stack Starter
-
-> Template repo for creating a TASH (**T**ailwind.css, **A**lpine.js, **S**purce,.js and alpine.js magic **H**elpers) stack starter app.
-
-> Heavily inspired by the [Alpine Experiments](https://github.com/ryangjchandler/alpine-experiments) from [Ryan Chandler](https://github.com/ryangjchandler)!
-
-
-# {{package-title}}
-{{package-description}}
+# TASH Starter Demo
+Demo app, using the TASH stack stack starter
 
 ## What is included?
 * [Tailwind.css](https://tailwindcss.com) for compoent styling
@@ -24,61 +17,10 @@ You get the following out of the box:
 
 
 ## Getting Started
-
-Simply click the **Use this template** button of this repo, and follow the [Github Guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-
-Remember to replace the following placeholder variables with your own:
-
-<details>
-  <summary>{{author-name}} - example: Cas du Plessis</summary>
-
-  * [README.md](README.md#L108)
-  * [package.json](package.json#L23)
-  * [LICENSE.md](LICENSE.md#L3)
-</details>
-
-<details>
-  <summary>{{author-email}} - example: go4cas@gmail.com</summary>
-
-  * [README.md](README.md#L108)
-  * [package.json](package.json#L23)
-</details>
-
-<details>
-  <summary>{{github-name}} - example: go4cas</summary>
-
-  * [README.md](README.md#L108)
-</details>
-
-<details>
-  <summary>{{current-year}} - example: 2020</summary>
-
-  * [LICENSE.md](LICENSE.md#L3)
-</details>
-
-<details>
-  <summary>{{package-title}} - example: tash-demo</summary>
-
-  * [README.md](README.md#L8)
-</details>
-
-<details>
-  <summary>{{package-description}} - example: Demo app for the TASH (Tailwind.css, Alpine.js, Spruce,.js and alpine.js magic Helpers</summary>
-
-  * [README.md](README.md#L9)
-  * [package.json](package.json#L4)
-</details>
-
-<details>
-  <summary>{{package-slug}} - example: go4cas/tash-demo</summary>
-
-  * [package.json](package.json#L7)
-</details>
-
-<details>
-  <summary>{{package-slug-short}} - example: tash-demo</summary>
-</details>
-
+Clone this repo:
+```bash
+git clone https://github.com/go4cas/tash-starter-demo.git
+```
 
 ### Installing
 
@@ -101,11 +43,11 @@ npm run build
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/go4cas/tash-starter-template/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/go4cas/tash-starter-demo/tags).
 
 ## Authors
 
-* **{{author-name}}** - [{{github-name}}](https://github.com/{{gitub-name}})
+* **Cas du Plessis** - [go4cas](https://github.com/go4cas)
 
 See also the list of [contributors](https://github.com/go4cas/CONTRIBUTORS.md) who participated in this project.
 
