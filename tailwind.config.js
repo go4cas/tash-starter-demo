@@ -1,7 +1,10 @@
 module.exports = {
-  purge: [
-    './src/**/*.html'
-  ],
+  purge: {
+    content: ['./src/**/*.html'],
+    options: {
+      whitelistPatterns: [/^text-/]
+    }
+  },
   theme: {
     extend: {
       fontFamily: {
