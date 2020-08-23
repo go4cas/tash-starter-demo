@@ -58,3 +58,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [Ryan Chandler](https://github.com/ryangjchandler)
+* [Kevin Batdorf](https://github.com/KevinBatdorf)
