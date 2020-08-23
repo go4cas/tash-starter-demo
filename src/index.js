@@ -3,7 +3,6 @@ import './store.js'
 
 ;(() => {
   registerComponents({
-    counter: './components/counter.js',
     toggle: './components/toggle.js'
   })
   
