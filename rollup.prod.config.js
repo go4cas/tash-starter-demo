@@ -11,7 +11,7 @@ export default {
     dir: './dist',
     format: 'es'
   },
-  // preserveModules: true,
+  preserveModules: true,
   plugins: [
     del({
       taregts: 'dist/*'
