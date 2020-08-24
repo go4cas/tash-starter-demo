@@ -6,8 +6,8 @@ import livereload from 'rollup-plugin-livereload'
 export default {
   input: [
     // 'src/**/*.js'
-    './src/index.js',
-    './src/components/toggle.js',
+    'src/index.js',
+    'src/components/toggle.js',
   ],
   output: {
     dir: './dist',
