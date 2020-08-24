@@ -5,8 +5,8 @@ import del from 'rollup-plugin-delete'
 export default {
   input: [
     // './src/**/*.js'
-    'src/index.js',
-    'src/components/toggle.js',
+    './src/index.js',
+    './src/components/toggle.js'
   ],
   output: {
     dir: './dist',
