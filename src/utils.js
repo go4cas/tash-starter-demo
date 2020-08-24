@@ -1,5 +1,5 @@
 export const buildComponent = async (data, methods = {}, init = () => {}) => {
-  return async () => { return { init, ...data, ...methods } }
+  return () => { return { init, ...data, ...methods } }
 }
 
 export const registerComponents = components => {
