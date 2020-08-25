@@ -1,7 +1,7 @@
 import { registerComponents } from './utils.js'
 import './store.js'
 
-;(async function () {
+;(async () => {
   await registerComponents({
     toggler: './components/toggle.js'
   })
