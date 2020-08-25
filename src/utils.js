@@ -1,8 +1,8 @@
-export const buildComponent = (data, methods = {}, init = () => {}) => {
+export const buildComponent = function (data, methods = {}, init = () => {}) {
   return () => { return { init, ...data, ...methods } }
 }
 
-export const registerComponents = function (components) {
+export const registerComponents = components => {
   Object.entries(components).filter(function ([component]) {
     return document.querySelector(`[x-data="${component}()"]`)
   }).forEach(function ([component, handler]) {
