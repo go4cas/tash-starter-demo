@@ -3,7 +3,7 @@ export const buildComponent = (data, methods = {}, init = () => {}) => {
 }
 
 export const registerComponents = components => {
-  return new Promise(function (resolve, reject) {
+  return new Promise((resolve, reject) => {
     resolve(Object.entries(components).filter(function ([component]) {
       return document.querySelector(`[x-data="${component}()"]`)
     }).forEach(function ([component, handler]) {
