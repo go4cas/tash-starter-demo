@@ -3,11 +3,10 @@ import './store.js'
 
 ;(async () => {
   await registerComponents({
-    toggle: './components/toggle.js'
+    toggle: './components/toggle.js',
+    switchy: './components/switchy.js'
   })
 
-  setTimeout(async () => {
-    await import('https://cdn.jsdelivr.net/gh/kevinbatdorf/alpine-magic-helpers@0.3.x/dist/index.js')
-    await import('https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js')  
-  }, 500)  
+  await import('https://cdn.jsdelivr.net/gh/kevinbatdorf/alpine-magic-helpers@0.3.x/dist/index.js')
+  await import('https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js')  
 })()

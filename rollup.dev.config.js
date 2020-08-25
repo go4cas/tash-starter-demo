@@ -7,6 +7,7 @@ export default {
   input: [
     './src/app.js',
     './src/components/toggle.js',
+    './src/components/switchy.js',
   ],
   output: {
     dir: './dist',
