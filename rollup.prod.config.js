@@ -17,7 +17,7 @@ export default {
     del({
       targets: 'dist/*'
     }),
-    terser(),
+    // terser(),
     copy({
       targets: [
         {
