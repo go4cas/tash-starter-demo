@@ -3,8 +3,7 @@ import './store.js'
 
 ;(async () => {
   await registerComponents({
-    toggle: './components/toggle.js',
-    switchy: './components/switchy.js'
+    toggle: './components/toggle.js'
   })
 
   await import('https://cdn.jsdelivr.net/gh/kevinbatdorf/alpine-magic-helpers@0.3.x/dist/index.js')
