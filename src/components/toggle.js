@@ -13,10 +13,6 @@ const methods = {
   }
 }
 
-const init = (() => {
-  console.log('toggle is here!!')
-})
-
 const toggle = buildComponent(data, methods, init)
 
 export default toggle
