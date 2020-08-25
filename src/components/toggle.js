@@ -13,6 +13,6 @@ const methods = {
   }
 }
 
-const toggle = buildComponent(data, methods, init)
+const toggle = buildComponent(data, methods)
 
 export default toggle
