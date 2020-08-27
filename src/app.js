@@ -5,7 +5,6 @@ const components = [...document.querySelectorAll("[x-data$='()']")].map(componen
   return component.getAttribute('x-data').slice(0,-2)
 })
 
-
 ;(async () => {
   /*
   await registerComponents({

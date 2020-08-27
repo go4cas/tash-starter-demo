@@ -9,8 +9,11 @@ module.exports = {
     extend: {
       fontFamily: {
         'ops': ['Black Ops One', 'cursive']
-      }
-    },
+      },
+      fontSize: {
+        'tiny': '.5rem'
+      }  
+    }
   },
   variants: {},
   plugins: [],
